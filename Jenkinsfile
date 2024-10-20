@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t Wahab901278/stockexchange-app:latest .'
+                sh 'docker build -t wahab901278/stockexchange:latest .'
             }
         }
 
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                sh 'docker push Wahab901278/stockexchange-app:latest'
+                sh 'docker push wahab901278/stockexchange:latest'
             }
         }
     }
