@@ -18,7 +18,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.4
 joblib==1.4.2
 jsonschema==4.23.0
-jsonschema-specifications==2023.3.1
+jsonschema-specifications==2024.10.1
 kaggle==1.6.17
 lxml==5.3.0
 markdown-it-py==3.0.0
