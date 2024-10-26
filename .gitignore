@@ -3,6 +3,8 @@ venv/
 env/
 task/
 .task/
+flask/
+.flask/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
