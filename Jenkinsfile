@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Checkout') {
+            steps {
+        sh 'git config --global http.postBuffer 524288000'
+        checkout scm
+        }
+        }
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t wahab901278/stockexchange:latest .'
