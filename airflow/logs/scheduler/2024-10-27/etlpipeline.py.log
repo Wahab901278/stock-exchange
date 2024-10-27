@@ -1,0 +1,505 @@
+[2024-10-27T06:36:49.227+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:49.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:36:49.231+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:36:49.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:51.886+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:36:51.884+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:36:51.886+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:51.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.682 seconds
+[2024-10-27T06:36:55.105+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:55.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:36:55.108+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:36:55.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:55.604+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:36:55.602+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:36:55.604+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:36:55.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.555 seconds
+[2024-10-27T06:37:48.612+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:37:48.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:37:48.619+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:37:48.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:37:50.738+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:37:50.736+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:37:50.738+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:37:50.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.190 seconds
+[2024-10-27T06:38:20.997+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:21.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:38:21.041+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:38:21.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:21.727+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:38:21.725+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:38:21.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:21.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.800 seconds
+[2024-10-27T06:38:52.664+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:52.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:38:52.708+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:38:52.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:53.411+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:38:53.409+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:38:53.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:38:53.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.813 seconds
+[2024-10-27T06:53:37.147+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:53:37.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:53:37.152+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:53:37.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:53:39.108+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:53:39.107+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:53:39.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:53:39.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.020 seconds
+[2024-10-27T06:54:09.451+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:09.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:54:09.495+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:54:09.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:10.193+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:54:10.191+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:54:10.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:10.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.806 seconds
+[2024-10-27T06:54:41.254+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:41.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:54:41.305+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:54:41.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:42.027+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:54:42.025+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:54:42.028+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:54:42.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.838 seconds
+[2024-10-27T06:55:13.061+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:13.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:55:13.103+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:55:13.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:13.787+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:55:13.785+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:55:13.788+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:13.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.753 seconds
+[2024-10-27T06:55:44.591+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:44.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:55:44.596+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:55:44.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:45.280+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:55:45.278+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:55:45.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:55:45.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.738 seconds
+[2024-10-27T06:56:15.998+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:16.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:56:16.042+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:56:16.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:16.727+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:56:16.725+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:56:16.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:16.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.756 seconds
+[2024-10-27T06:56:47.249+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:47.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:56:47.299+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:56:47.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:48.006+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:56:48.004+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:56:48.007+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:56:48.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.823 seconds
+[2024-10-27T06:57:18.708+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:18.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:57:18.750+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:57:18.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:19.441+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:57:19.439+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:57:19.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:19.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.800 seconds
+[2024-10-27T06:57:50.065+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:50.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:57:50.069+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:57:50.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:50.751+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:57:50.749+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:57:50.752+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:57:50.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.750 seconds
+[2024-10-27T06:58:21.058+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:21.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:58:21.062+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:58:21.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:21.744+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:58:21.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:58:21.745+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:21.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.750 seconds
+[2024-10-27T06:58:52.041+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:52.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:58:52.085+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:58:52.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:52.768+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:58:52.766+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:58:52.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:58:52.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.816 seconds
+[2024-10-27T06:59:23.181+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:23.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:59:23.226+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:59:23.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:23.952+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:59:23.950+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:59:23.953+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:24.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.835 seconds
+[2024-10-27T06:59:54.292+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:54.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T06:59:54.335+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:59:54.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:55.043+0000] {logging_mixin.py:190} INFO - [2024-10-27T06:59:55.041+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T06:59:55.044+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T06:59:55.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.818 seconds
+[2024-10-27T07:00:25.317+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:25.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T07:00:25.321+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:00:25.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:26.006+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:00:26.004+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T07:00:26.007+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:26.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.754 seconds
+[2024-10-27T07:00:56.249+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:56.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T07:00:56.254+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:00:56.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:57.011+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:00:57.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T07:00:57.012+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:00:57.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.827 seconds
+[2024-10-27T07:01:27.369+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:01:27.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T07:01:27.374+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:01:27.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:01:28.108+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:01:28.106+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T07:01:28.108+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:01:28.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.766 seconds
+[2024-10-27T07:10:02.450+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:02.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T07:10:02.453+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:10:02.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:04.103+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:10:04.102+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 8, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-10-27T07:10:04.104+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:04.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.680 seconds
+[2024-10-27T07:10:35.037+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:35.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T07:10:35.089+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:10:35.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:35.669+0000] {logging_mixin.py:190} INFO - [2024-10-27T07:10:35.667+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 8, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-10-27T07:10:35.669+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T07:10:35.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.659 seconds
+[2024-10-27T08:12:37.208+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:12:37.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:12:37.211+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:12:37.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:12:38.731+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:12:38.730+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:12:38.732+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:12:38.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.581 seconds
+[2024-10-27T08:13:09.648+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:09.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:13:09.654+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:13:09.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:10.115+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:13:10.114+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:13:10.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:10.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.537 seconds
+[2024-10-27T08:13:41.318+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:41.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:13:41.360+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:13:41.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:42.097+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:13:42.095+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:13:42.098+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:13:42.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.848 seconds
+[2024-10-27T08:14:13.103+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:14:13.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:14:13.154+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:14:13.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:14:13.858+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:14:13.856+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:14:13.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:14:13.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.825 seconds
+[2024-10-27T08:15:29.757+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:15:29.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:15:29.760+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:15:29.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:15:30.213+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:15:30.212+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:15:30.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:15:30.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.472 seconds
+[2024-10-27T08:16:01.079+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:01.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:16:01.122+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:16:01.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:01.837+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:16:01.835+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:16:01.838+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:01.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.823 seconds
+[2024-10-27T08:16:32.817+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:32.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:16:32.862+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:16:32.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:33.570+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:16:33.568+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:16:33.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:16:33.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.819 seconds
+[2024-10-27T08:17:04.359+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:04.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:17:04.402+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:17:04.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:05.096+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:17:05.094+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:17:05.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:05.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.805 seconds
+[2024-10-27T08:17:36.309+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:36.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:17:36.360+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:17:36.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:37.104+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:17:37.102+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etlpipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlpipeline.py", line 7, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+[2024-10-27T08:17:37.104+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:17:37.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 0.860 seconds
+[2024-10-27T08:21:30.370+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:21:30.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:21:30.375+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:30.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:21:33.258+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:21:33.374+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.374+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:ETL_training_pipeline
+[2024-10-27T08:21:33.389+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.389+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:ETL_training_pipeline
+[2024-10-27T08:21:33.400+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.400+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:ETL_training_pipeline
+[2024-10-27T08:21:33.413+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.413+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:ETL_training_pipeline
+[2024-10-27T08:21:33.422+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.421+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:ETL_training_pipeline
+[2024-10-27T08:21:33.436+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.435+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:ETL_training_pipeline
+[2024-10-27T08:21:33.450+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.449+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:ETL_training_pipeline
+[2024-10-27T08:21:33.451+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:21:33.476+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.475+0000] {dag.py:3262} INFO - Creating ORM DAG for ETL_training_pipeline
+[2024-10-27T08:21:33.495+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:21:33.495+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:21:33.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 3.174 seconds
+[2024-10-27T08:22:03.827+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:03.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:22:03.871+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:03.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:05.925+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:05.944+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:05.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:22:05.962+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:05.961+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:22:05.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.159 seconds
+[2024-10-27T08:22:36.554+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:36.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:22:36.606+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:36.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:38.597+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:22:38.621+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:38.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:22:38.648+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:22:38.648+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:22:38.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.168 seconds
+[2024-10-27T08:23:09.261+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:09.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:23:09.306+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:09.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:11.211+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:11.235+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:11.234+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:23:11.264+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:11.264+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:23:11.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.079 seconds
+[2024-10-27T08:23:41.597+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:41.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:23:41.642+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:41.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:43.553+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:23:43.577+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:43.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:23:43.606+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:23:43.606+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:23:43.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.083 seconds
+[2024-10-27T08:24:13.912+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:13.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:24:13.969+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:13.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:15.665+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:15.682+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:15.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:24:15.700+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:15.699+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:24:15.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.825 seconds
+[2024-10-27T08:24:46.019+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:46.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T08:24:46.026+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:46.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:47.988+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T08:24:48.016+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:48.015+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T08:24:48.049+0000] {logging_mixin.py:190} INFO - [2024-10-27T08:24:48.049+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T08:24:48.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.072 seconds
