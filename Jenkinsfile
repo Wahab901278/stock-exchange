@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-        sh 'git config --global http.postBuffer 524288000'
-        checkout scm
-        }
+                sh 'git config --global http.postBuffer 524288000'
+                checkout scm
+            }
         }
         stage('Build Docker Image') {
             steps {
