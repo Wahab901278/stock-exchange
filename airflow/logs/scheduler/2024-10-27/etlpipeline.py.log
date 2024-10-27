@@ -2659,3 +2659,38 @@ ModuleNotFoundError: No module named 'joblib'
 [2024-10-27T11:44:25.079+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:44:25.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-27T11:44:25.107+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:44:25.107+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
 [2024-10-27T11:44:25.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.958 seconds
+[2024-10-27T11:44:55.369+0000] {processor.py:186} INFO - Started process (PID=4182) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:44:55.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T11:44:55.433+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:44:55.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:44:57.272+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:44:57.297+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:44:57.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T11:44:57.326+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:44:57.326+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T11:44:57.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.043 seconds
+[2024-10-27T11:45:27.663+0000] {processor.py:186} INFO - Started process (PID=4195) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:45:27.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T11:45:27.704+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:45:27.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:45:29.531+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:45:29.555+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:45:29.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T11:45:29.585+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:45:29.585+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T11:45:29.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.956 seconds
+[2024-10-27T11:45:59.807+0000] {processor.py:186} INFO - Started process (PID=4208) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:45:59.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T11:45:59.849+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:45:59.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:46:01.758+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:46:01.786+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:46:01.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T11:46:01.816+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:46:01.815+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T11:46:01.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.057 seconds
+[2024-10-27T11:46:32.113+0000] {processor.py:186} INFO - Started process (PID=4221) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:46:32.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T11:46:32.117+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:46:32.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:46:33.355+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:46:33.373+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:46:33.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T11:46:33.390+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:46:33.390+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T11:46:33.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 1.346 seconds
+[2024-10-27T11:47:03.719+0000] {processor.py:186} INFO - Started process (PID=4234) to work on /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:47:03.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etlpipeline.py for tasks to queue
+[2024-10-27T11:47:03.724+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:47:03.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:47:05.634+0000] {processor.py:925} INFO - DAG(s) 'ETL_training_pipeline' retrieved from /opt/airflow/dags/etlpipeline.py
+[2024-10-27T11:47:05.659+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:47:05.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-27T11:47:05.687+0000] {logging_mixin.py:190} INFO - [2024-10-27T11:47:05.686+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_training_pipeline to 2023-10-01 00:00:00+00:00, run_after=2023-10-02 00:00:00+00:00
+[2024-10-27T11:47:05.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etlpipeline.py took 2.043 seconds
